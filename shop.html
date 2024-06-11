@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+
+    <title>TROPICALIA</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Compras</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="faq.html" class="nav__link">Perguntas</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">Sobre</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contato</a>
+                    </li>
+                
+                </ul>
+
+                <!-- <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div> -->
+            </div>
+
+            <div class="nav__btns">
+                <div class="login__toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== CART ===============-->
+
+    <div class="cart">
+        <h2 class="cart-title">Meu carrinho</h2>
+
+        <!-- CONTENT  -->
+        <div class="cart-content">
+            
+
+        </div>
+
+        <!-- TOTAL   -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <!-- BUY BUTTON  -->
+        <a href="/Credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <!-- CART CLOSE  -->
+        <i class='bx bx-x' id="cart-close"></i>
+    </div>
+</div>
+
+    
+
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+
+        <h2 class="login__title-center">Login</h2>
+
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">Email</label>
+                <input type="email" class="login__input">
+            </div>
+
+            <div class="login__content">
+                <label for="" class="login__label">Senha</label>
+                <input type="password" class="login__input">
+            </div>
+
+            <div>
+                <a href="#" class="button">Entrar</a>
+            </div>
+
+            <div>
+                <p class="signup">Não é um membro? <a href="registration.html">Inscreva-se agora</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== SHOP ===============-->
+        <section class="shop section container">
+            <h2 class="breadcrumb__title">Compras</h2>
+            <h3 class="breadcrumb__subtitle">Inicio> <span>Shop</span></h3>
+
+            <div class="shop__container grid">
+                <div class="sidebar">
+                    <h3 class="filter__title">Filtros</h3>
+                    <div class="filter__content">
+                        <h3 class="filter__subtitle">Condição</h3>
+
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Novo</p> <span>(13)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Oferta</p> <span>(13)</span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filter__subtitle">Tamanho</h3>
+
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>s</p> <span>(13)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>M</p> <span>(15)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>L</p> <span>(6)</span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filter__subtitle">Categorias</h3>
+
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Homem</p> <span>(2)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Mulher</p> <span>(4)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Criança</p> <span>(6)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Outros</p> <span>(4)</span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filter__subtitle">Estilos</h3>
+
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Casual</p> <span>(2)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Elegante</p> <span>(4)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Tropical</p> <span>(6)</span>
+                        </div>
+                    </div>
+
+                    <div class="filter__content">
+                        <h3 class="filter__subtitle">Sub Categorias</h3>
+
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Jaquetas</p> <span>(2)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Camisas</p> <span>(4)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Acessórios</p> <span>(6)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Ténis</p> <span>(4)</span>
+                        </div>
+                        <div class="filter">
+                            <input type="checkbox" name="" id="">
+                            <p>Casacos</p> <span>(4)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="shop__items grid">
+                    <div class="shop__content">
+                        <div class="shop__tag">Novo</div>
+                        <img src="./assets/img/Roupa1.jpg" alt="" class="new__img">
+                        <h3 class="new__title">Tropic Flower</h3>
+                        <span class="shop__subtitle">Camisa</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$64.90</span>
+                            <span class="new__discount">R$79.90</span>
+                        </div>
+
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                      
+                    </div>
+
+                    <div class="shop__content">
+                        <div class="shop__tag">Sale</div>
+                        <img src="./assets/img/Roupa4.jpg" alt="" class="new__img">
+                        <h3 class="new__title">Tropic dress</h3>
+                        <span class="shop__subtitle">Vestido</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$99.90</span>
+                            <span class="new__discount">R$150.90</span>
+                        </div>
+
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                        
+                    </div>
+
+                    <div class="shop__content">
+                        <div class="shop__tag">Oferta</div>
+                        <img src="./assets/img/Roupa2.jpg" alt="" class="new__img">
+                        <h3 class="new__title">Geometric Tropic</h3>
+                        <span class="shop__subtitle">Camisa</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$64.90</span>
+                            <span class="new__discount">R$79.90</span>
+                        </div>
+
+                      
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                       
+                    </div>
+
+                    <div class="shop__content">
+                        <div class="shop__tag">Novo</div>
+                        <img src="./assets/img/Roupa5.jpg" alt="" class="new__img">
+                        <h3 class="new__title">knit Fiber</h3>
+                        <span class="shop__subtitle">Vestido</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$120.90</span>
+                            <span class="new__discount">R$170.90</span>
+                        </div>
+
+                        
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                     
+                    </div>
+
+                    <div class="shop__content">
+                        <div class="shop__tag">Novo</div>
+                        <img src="./assets/img/Roupa3.jpg" alt="" class="new__img">
+                        <h3 class="new__title">Crochet Fiber</h3>
+                        <span class="new__subtitle">Camisa</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$64.90</span>
+                            <span class="new__discount">R$79.90</span>
+                        </div>
+
+                        
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                        
+                    </div>
+
+                    <div class="shop__content">
+                        <div class="shop__tag">Oferta</div>
+                        <img src="./assets/img/Roupa6.jpg" alt="" class="new__img">
+                        <h3 class="new__title">Collection Fiber</h3>
+                        <span class="shop__subtitle">Vestido</span>
+
+                        <div class="new__prices">
+                            <span class="new__price">R$179.90</span>
+                            <span class="new__discount">R$199.90</span>
+                        </div>
+
+                        
+                        <div class="button new__button">
+                            <i class="bx bx-cart-alt add-cart"></i>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagination">
+                <i class="bx bx-chevron-left pagination__icon"></i>
+
+                <span class="current">1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>&middot; &middot; &middot;</span>
+                <span>9</span>
+
+                <i class="bx bx-chevron-right pagination__icon"></i>
+            </div>
+        </section>
+    </main>
+
+   <!--=============== FOOTER ===============-->
+   <footer class="footer section">
+    <div class="footer__container container grid">
+        <!-- FOOTER CONTENT 1 -->
+        <div class="footer__content">
+            <a href="#" class="footer__logo">
+                <!-- <img src="./assets/img/logo.png" alt=""> -->
+            </a>
+
+            <p class="footer__description">Naturalmente sustentável, confortavelmente elegante. </p>
+
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </div>
+        <!-- FOOTER CONTENT 2 -->
+        <div class="footer__content">
+            <h3 class="footer__title">Sobre</h3>
+
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Sobre nós</a></li>
+                <li><a href="#" class="footer__link">Suporte ao cliente</a></li>
+                <li><a href="#" class="footer__link">Central de suporte</a></li>
+            </ul>
+        </div>
+        <!-- FOOTER CONTENT 3 -->
+        <div class="footer__content">
+            <h3 class="footer__title">
+                Serviços</h3>
+
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Comprar</a></li>
+                <li><a href="#" class="footer__link">Descontos</a></li>
+                <li><a href="#" class="footer__link">Modo de entrega</a></li>
+            </ul>
+        </div>
+        <!-- FOOTER CONTENT 4 -->
+        <div class="footer__content">
+            <h3 class="footer__title">Empresa</h3>
+
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Cadastre-se</a></li>
+                <li><a href="#" class="footer__link">Contate-nos</a></li>
+                <li><a href="about.html" class="footer__link">Sobre nós</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <span class="footer__copy">&#169; Tropicalia. todos direitos reservados</span>
+</footer>
+
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== STYLE SWITCHER ===============-->
+    <div class="style__switcher">
+        <div class="style__switcher-toggler s__icon">
+            <i class="bx bxs-cog bx-spin"></i>
+        </div>
+
+        <h4>Temas</h4>
+
+        <div class="theme__colors js-theme-colors">
+            <button type="button"  data-js-theme-color="color-1" class="js-theme-color-item theme__button color-1"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-2" class="js-theme-color-item theme__button color-2"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-3" class="js-theme-color-item theme__button color-3"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-4" class="js-theme-color-item theme__button color-4"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-5" class="js-theme-color-item theme__button color-5"><i class="bx bx-check"></i></button>
+        </div>
+    </div>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

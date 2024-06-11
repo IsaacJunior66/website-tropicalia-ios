@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+
+    <title>TROPICALIA</title>
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   
+
+                    <li class="nav__item">
+                        <a href="shop.html" class="nav__link">Compras</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="blog.html" class="nav__link">Blog</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="faq.html" class="nav__link">Perguntas</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">Sobre</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact.html" class="nav__link">Contato</a>
+                    </li>
+                
+                </ul>
+
+                <!-- <div class="nav__close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div> -->
+            </div>
+
+            <div class="nav__btns">
+                <div class="login__toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="nav__shop" id="cart-shop">
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== CART ===============-->
+    <div class="cart">
+        <h2 class="cart-title">Meu carrinho</h2>
+
+        <!-- CONTENT  -->
+        <div class="cart-content">
+            
+
+        </div>
+
+        <!-- TOTAL   -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+        <!-- BUY BUTTON  -->
+        <a href="/Credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <!-- CART CLOSE  -->
+        <i class='bx bx-x' id="cart-close"></i>
+    </div>
+</div>
+
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login__close" id="login-close"></i>
+
+        <h2 class="login__title-center">Login</h2>
+
+        <form action="" class="login__form grid">
+            <div class="login__content">
+                <label for="" class="login__label">Email</label>
+                <input type="email" class="login__input">
+            </div>
+
+            <div class="login__content">
+                <label for="" class="login__label">Password</label>
+                <input type="password" class="login__input">
+            </div>
+
+            <div>
+                <a href="#" class="button">Sign in</a>
+            </div>
+
+            <div>
+                <p class="signup">Not a member? <a href="registration.html">Sign up now</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== FAQ'S ===============-->
+        <section class="questions section container">
+            <h2 class="breadcrumb__title">Perguntas</h2>
+            <h3 class="breadcrumb__subtitle">Inicio> <span>FAQ'S</span></h3>
+
+            <div class="questions__container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">Porque é que o meu pacote ainda não chegou?</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Se o seu pacote ainda não ultrapassou o prazo de entrega, não se preocupe, por favor aguarde pacientemente.
+
+                                Devido ao atraso no sistema, seu pacote pode não ter seu status logístico atualizado por vários dias. Não se preocupe, por favor aguarde pacientemente se o pacote ainda estiver dentro do prazo de entrega.
+                                
+                                Você também pode entrar no site oficial do fornecedor de logística correspondente para verificar o status mais recente do seu pacote.</p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">Onde está a minha encomenda?</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Se não houver atualizações no site dos Correios do Brasil após o envio do seu pedido. O motivo é porque o seu pedido ainda não chegou em nossos armazéns.
+                                Por favor, dê algum tempo para os Correios atualizar as informações de rastreamento mais recentes após chegar nos armazéns. Espero que você receba seu pacote em breve e adorei o item maravilhoso.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">Em até quanto tempo posso trocar ou devolver um produto?.</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Você pode devolvê-lo em até 7 dias corridos após o recebimento em caso de desistência ou arrependimento da compra, ou trocá-lo em até 7 dias após o recebimento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">​Posso trocar um produto sem a etiqueta da compra?</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Para que possamos realizar a troca do seu produto o item deve conter, obrigatoriamente, as etiquetas internas fixadas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">Quais são as formas e prazo de reembolso para a devolução de um pedido ou item?</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Cartão de Crédito: o estorno pode acontecer em até 2 faturas.
+                                <br>
+                                Boleto: o depósito é feito de acordo com os dados informados no momento da solicitação com prazo de até 6 dias úteis.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="bx bx-plus questions__icon"></i>
+                            <h3 class="questions__item-title">Posso cancelar uma compra? Como cancelo meu pedido?</h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Depois de concluir um pedido na loja, não é possível cancelá-lo. Se desistiu da compra e ainda não recebeu o seu pedido, basta recusá-lo no momento da entrega.
+                                Ao retornar o pedido ao nosso estoque, um Vale- Troca com o mesmo valor do pedido será gerado para você.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <!-- FOOTER CONTENT 1 -->
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <!-- <img src="./assets/img/logo.png" alt=""> -->
+                </a>
+
+                <p class="footer__description">Naturalmente sustentável, confortavelmente elegante. </p>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class="bx bxl-whatsapp"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
+                    <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+                </div>
+            </div>
+            <!-- FOOTER CONTENT 2 -->
+            <div class="footer__content">
+                <h3 class="footer__title">Sobre</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Sobre nós</a></li>
+                    <li><a href="#" class="footer__link">Suporte ao cliente</a></li>
+                    <li><a href="#" class="footer__link">Central de suporte</a></li>
+                </ul>
+            </div>
+            <!-- FOOTER CONTENT 3 -->
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Serviços</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Comprar</a></li>
+                    <li><a href="#" class="footer__link">Descontos</a></li>
+                    <li><a href="#" class="footer__link">Modo de entrega</a></li>
+                </ul>
+            </div>
+            <!-- FOOTER CONTENT 4 -->
+            <div class="footer__content">
+                <h3 class="footer__title">Empresa</h3>
+
+                <ul class="footer__links">
+                    <li><a href="#" class="footer__link">Cadastre-se</a></li>
+                    <li><a href="#" class="footer__link">Contate-nos</a></li>
+                    <li><a href="about.html" class="footer__link">Sobre nós</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <span class="footer__copy">&#169; Tropicalia. todos direitos reservados</span>
+    </footer>
+
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== STYLE SWITCHER ===============-->
+    <div class="style__switcher">
+        <div class="style__switcher-toggler s__icon">
+            <i class="bx bxs-cog bx-spin"></i>
+        </div>
+
+        <h4>Temas</h4>
+
+        <div class="theme__colors js-theme-colors">
+            <button type="button"  data-js-theme-color="color-1" class="js-theme-color-item theme__button color-1"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-2" class="js-theme-color-item theme__button color-2"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-3" class="js-theme-color-item theme__button color-3"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-4" class="js-theme-color-item theme__button color-4"><i class="bx bx-check"></i></button>
+            <button type="button"  data-js-theme-color="color-5" class="js-theme-color-item theme__button color-5"><i class="bx bx-check"></i></button>
+        </div>
+    </div>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

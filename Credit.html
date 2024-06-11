@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/Credit.css">
+</head>
+
+<body>
+
+    <div id="page" class="site">
+        <div class="container">
+            <div class="outer">
+                <header>
+                    <div class="logo">
+                        <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+                    </div>
+                    <div class="time-left">
+                        <time id="time">03:00</time>
+                        <span>tempo restante !</span>
+                    </div>
+                </header>
+                <section class="payment">
+                    <div class="left">
+                        <form action="" method="post">
+                            <div class="card-number">
+                                <p>Numero do cartão</p>
+                                <span>Digite o número do cartão de 16 dígitos no cartão</span>
+                                <div class="card-number-box">
+                                    <input type="text" id="credit-card" autocomplete="off" placeholder="XXXX - XXXX - XXXX - XXXX">
+                                    <span class="cc-logo"></span>
+                                </div>
+                            </div>
+
+                            <div class="card-holder">
+                                <div class="text">
+                                    <p>Nome do titular</p>
+                                    <span>Insira o nome do titular do cartão no cartão</span>
+                                </div>
+                                <div class="input">
+                                    <input type="text" id="card-name" autocomplete="off" required>
+                                </div>
+                            </div>
+                            <div class="card-cvv">
+                                <div class="text">
+                                    <p>CVV Número</p>
+                                    <span>Digite o número de 3 ou 4 dígitos do cartão</span>
+                                </div>
+                                <div class="input">
+                                    <input type="number" data-maxlength="4" required oninput="this.value=this.value.slice(0,this.dataset.maxlength)" />
+                                </div>
+                            </div>
+                            <div class="card-expiration">
+                                <div class="text">
+                                    <p>Data de validade</p>
+                                    <span>Insira a data de validade do cartão</span>
+                                </div>
+                                <div class="input">
+                                    <input type="number" id="exp-month" placeholder="MM" data-maxlength="2" required oninput="this.value=this.value.slice(0,this.dataset.maxlength)" />
+                                    <strong> / </strong>
+                                    <input type="number" id="exp-year" placeholder="YY" data-maxlength="2" required oninput="this.value=this.value.slice(0,this.dataset.maxlength)" />
+                                </div>
+                            </div>
+                            <a href="/index.html"><button class="Finish-buy">Finalizar Compra</button></a>
+                        </form>
+                    </div>
+                    <div class="right">
+                        <div class="card-virtual">
+                            <p class="cc-logo"></p>
+                            <p class="name-holder">Tropicalia Store</p>
+                            <p class="chip">
+                                <img id="img-chip" src="./assets/img/chip.png" alt="Chip-do-cartao">
+                            </p>
+                            <p class="highlight">
+                                <span class="last-digit" id="card-number">.... .... .... 4567</span>
+                                <span class="expity">
+                                    <span class="exp-month">11</span> /
+                                    <span class="exp-year">25</span>
+                                </span>
+                            </p>
+                        </div>
+                        <div class="receipt">
+                            <ul>
+                                <li>
+                                    <span>Número do pedido</span>
+                                    <span>15042022</span>
+                                </li>
+                                <li>
+                                    <span>Produto</span>
+                                    <span>Camisa fiber coco</span>
+                                </li>
+                                <li>
+                                    <span>Desconto (50%)</span>
+                                    <span>R$50.00</span>
+                                </li>
+                            </ul>
+                            <div class="total-buy">
+                                <p class="total-price-buy"><strong>0</strong>R$</p>
+                                <p>Total que você tem que pagar</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/Credit.js"></script>
+</body>
+
+</html>
