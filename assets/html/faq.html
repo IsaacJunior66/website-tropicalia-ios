@@ -1,59 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
-    <!--=============== BOXICONS ===============-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
-
-    <title>TROPICALIA</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/logohigh.jpg" type="image/x-icon">
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="../js/swiper-bundle.min.js">
+    
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" class="js-color-style" href="../css/colors/color-1.css">
+    
+        <title>TROPICALIA</title>
+    </head>
 <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="./assets/img/logo.png" alt="logo">
+            <a href="/index.html" class="nav__logo">
+                <img src="../img/logo.png" alt="logo">
             </a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                   
-
+                    
                     <li class="nav__item">
-                        <a href="shop.html" class="nav__link">Compras</a>
+                        <a href="../html/shop.html" class="nav__link">Compras</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="blog.html" class="nav__link">Blog</a>
+                        <a href="../html/blog.html" class="nav__link">Blog</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="faq.html" class="nav__link">Perguntas</a>
+                        <a href="../html/faq.html" class="nav__link">Perguntas</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="about.html" class="nav__link">Sobre</a>
+                        <a href="../html/about.html" class="nav__link">Sobre</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contato</a>
+                        <a href="../html/contact.html" class="nav__link">Contato</a>
                     </li>
-                
                 </ul>
-
-                <!-- <div class="nav__close" id="nav-close">
-                    <i class="bx bx-x"></i>
-                </div> -->
             </div>
 
             <div class="nav__btns">
@@ -62,7 +56,8 @@
                 </div>
 
                 <div class="nav__shop" id="cart-shop">
-                    <i class="bx bx-shopping-bag"></i>
+                    <i class='bx bx-shopping-bag' id="cart"></i>
+                    <span id="cart-count">0</span>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -73,6 +68,7 @@
     </header>
 
     <!--=============== CART ===============-->
+
     <div class="cart">
         <h2 class="cart-title">Meu carrinho</h2>
 
@@ -88,11 +84,13 @@
             <div class="total-price">$0</div>
         </div>
         <!-- BUY BUTTON  -->
-        <a href="/Credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <a href="../html/credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
         <!-- CART CLOSE  -->
         <i class='bx bx-x' id="cart-close"></i>
     </div>
 </div>
+
+    
 
     <!--=============== LOGIN ===============-->
     <div class="login" id="login">
@@ -107,16 +105,12 @@
             </div>
 
             <div class="login__content">
-                <label for="" class="login__label">Password</label>
+                <label for="" class="login__label">Senha</label>
                 <input type="password" class="login__input">
             </div>
 
             <div>
-                <a href="#" class="button">Sign in</a>
-            </div>
-
-            <div>
-                <p class="signup">Not a member? <a href="registration.html">Sign up now</a></p>
+                <a href="#" class="button">Entrar</a>
             </div>
         </form>
     </div>
@@ -222,57 +216,57 @@
     </main>
 
     <!--=============== FOOTER ===============-->
-    <footer class="footer section">
-        <div class="footer__container container grid">
-            <!-- FOOTER CONTENT 1 -->
-            <div class="footer__content">
-                <a href="#" class="footer__logo">
-                    <!-- <img src="./assets/img/logo.png" alt=""> -->
-                </a>
+   <footer class="footer section">
+    <div class="footer__container container grid">
+        <!-- FOOTER CONTENT 1 -->
+        <div class="footer__content">
+            <a href="#" class="footer__logo">
+                <!-- <img src="./assets/img/logo.png" alt=""> -->
+            </a>
 
-                <p class="footer__description">Naturalmente sustentável, confortavelmente elegante. </p>
+            <p class="footer__description">Naturalmente sustentável, confortavelmente elegante. </p>
 
-                <div class="footer__social">
-                    <a href="#" class="footer__social-link"><i class="bx bxl-whatsapp"></i></a>
-                    <a href="#" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
-                    <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
-                </div>
-            </div>
-            <!-- FOOTER CONTENT 2 -->
-            <div class="footer__content">
-                <h3 class="footer__title">Sobre</h3>
-
-                <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Sobre nós</a></li>
-                    <li><a href="#" class="footer__link">Suporte ao cliente</a></li>
-                    <li><a href="#" class="footer__link">Central de suporte</a></li>
-                </ul>
-            </div>
-            <!-- FOOTER CONTENT 3 -->
-            <div class="footer__content">
-                <h3 class="footer__title">
-                    Serviços</h3>
-
-                <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Comprar</a></li>
-                    <li><a href="#" class="footer__link">Descontos</a></li>
-                    <li><a href="#" class="footer__link">Modo de entrega</a></li>
-                </ul>
-            </div>
-            <!-- FOOTER CONTENT 4 -->
-            <div class="footer__content">
-                <h3 class="footer__title">Empresa</h3>
-
-                <ul class="footer__links">
-                    <li><a href="#" class="footer__link">Cadastre-se</a></li>
-                    <li><a href="#" class="footer__link">Contate-nos</a></li>
-                    <li><a href="about.html" class="footer__link">Sobre nós</a></li>
-                </ul>
+            <div class="footer__social">
+                <a href="#" class="footer__social-link"><i class="bx bxl-whatsapp"></i></a>
+                <a href="#" class="footer__social-link"><i class="bx bxl-instagram-alt"></i></a>
+                <a href="#" class="footer__social-link"><i class="bx bxl-twitter"></i></a>
             </div>
         </div>
+        <!-- FOOTER CONTENT 2 -->
+        <div class="footer__content">
+            <h3 class="footer__title">Sobre</h3>
 
-        <span class="footer__copy">&#169; Tropicalia. todos direitos reservados</span>
-    </footer>
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Sobre nós</a></li>
+                <li><a href="#" class="footer__link">Suporte ao cliente</a></li>
+                <li><a href="#" class="footer__link">Central de suporte</a></li>
+            </ul>
+        </div>
+        <!-- FOOTER CONTENT 3 -->
+        <div class="footer__content">
+            <h3 class="footer__title">
+                Serviços</h3>
+
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Comprar</a></li>
+                <li><a href="#" class="footer__link">Descontos</a></li>
+                <li><a href="#" class="footer__link">Modo de entrega</a></li>
+            </ul>
+        </div>
+        <!-- FOOTER CONTENT 4 -->
+        <div class="footer__content">
+            <h3 class="footer__title">Empresa</h3>
+
+            <ul class="footer__links">
+                <li><a href="#" class="footer__link">Cadastre-se</a></li>
+                <li><a href="#" class="footer__link">Contate-nos</a></li>
+                <li><a href="../html/about.html" class="footer__link">Sobre nós</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <span class="footer__copy">&#169; Tropicalia. todos direitos reservados</span>
+</footer>
 
 
     <!--=============== SCROLL UP ===============-->
@@ -298,9 +292,9 @@
     </div>
     
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

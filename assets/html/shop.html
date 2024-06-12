@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logohigh.jpg" type="image/x-icon">
     <!--=============== BOXICONS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../js/swiper-bundle.min.js">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="../css/colors/color-1.css">
 
     <title>TROPICALIA</title>
 </head>
@@ -21,39 +21,34 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="./assets/img/logo.png" alt="logo">
+            <a href="/index.html" class="nav__logo">
+                <img src="../img/logo.png" alt="logo">
             </a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                   
+                    
 
                     <li class="nav__item">
-                        <a href="shop.html" class="nav__link">Compras</a>
+                        <a href="../html/shop.html" class="nav__link">Compras</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="blog.html" class="nav__link">Blog</a>
+                        <a href="../html/blog.html" class="nav__link">Blog</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="faq.html" class="nav__link">Perguntas</a>
+                        <a href="../html/faq.html" class="nav__link">Perguntas</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="about.html" class="nav__link">Sobre</a>
+                        <a href="../html/about.html" class="nav__link">Sobre</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contato</a>
+                        <a href="../html/contact.html" class="nav__link">Contato</a>
                     </li>
-                
                 </ul>
-
-                <!-- <div class="nav__close" id="nav-close">
-                    <i class="bx bx-x"></i>
-                </div> -->
             </div>
 
             <div class="nav__btns">
@@ -62,7 +57,8 @@
                 </div>
 
                 <div class="nav__shop" id="cart-shop">
-                    <i class="bx bx-shopping-bag"></i>
+                    <i class='bx bx-shopping-bag' id="cart"></i>
+                    <span id="cart-count">0</span>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -89,7 +85,7 @@
             <div class="total-price">$0</div>
         </div>
         <!-- BUY BUTTON  -->
-        <a href="/Credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <a href="../html/credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
         <!-- CART CLOSE  -->
         <i class='bx bx-x' id="cart-close"></i>
     </div>
@@ -116,10 +112,6 @@
 
             <div>
                 <a href="#" class="button">Entrar</a>
-            </div>
-
-            <div>
-                <p class="signup">Não é um membro? <a href="registration.html">Inscreva-se agora</a></p>
             </div>
         </form>
     </div>
@@ -231,7 +223,7 @@
                 <div class="shop__items grid">
                     <div class="shop__content">
                         <div class="shop__tag">Novo</div>
-                        <img src="./assets/img/Roupa1.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa1.jpg" alt="" class="new__img">
                         <h3 class="new__title">Tropic Flower</h3>
                         <span class="shop__subtitle">Camisa</span>
 
@@ -248,7 +240,7 @@
 
                     <div class="shop__content">
                         <div class="shop__tag">Sale</div>
-                        <img src="./assets/img/Roupa4.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa4.jpg" alt="" class="new__img">
                         <h3 class="new__title">Tropic dress</h3>
                         <span class="shop__subtitle">Vestido</span>
 
@@ -265,7 +257,7 @@
 
                     <div class="shop__content">
                         <div class="shop__tag">Oferta</div>
-                        <img src="./assets/img/Roupa2.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa2.jpg" alt="" class="new__img">
                         <h3 class="new__title">Geometric Tropic</h3>
                         <span class="shop__subtitle">Camisa</span>
 
@@ -283,7 +275,7 @@
 
                     <div class="shop__content">
                         <div class="shop__tag">Novo</div>
-                        <img src="./assets/img/Roupa5.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa5.jpg" alt="" class="new__img">
                         <h3 class="new__title">knit Fiber</h3>
                         <span class="shop__subtitle">Vestido</span>
 
@@ -301,7 +293,7 @@
 
                     <div class="shop__content">
                         <div class="shop__tag">Novo</div>
-                        <img src="./assets/img/Roupa3.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa3.jpg" alt="" class="new__img">
                         <h3 class="new__title">Crochet Fiber</h3>
                         <span class="new__subtitle">Camisa</span>
 
@@ -319,7 +311,7 @@
 
                     <div class="shop__content">
                         <div class="shop__tag">Oferta</div>
-                        <img src="./assets/img/Roupa6.jpg" alt="" class="new__img">
+                        <img src="../img/Roupa6.jpg" alt="" class="new__img">
                         <h3 class="new__title">Collection Fiber</h3>
                         <span class="shop__subtitle">Vestido</span>
 
@@ -396,7 +388,7 @@
             <ul class="footer__links">
                 <li><a href="#" class="footer__link">Cadastre-se</a></li>
                 <li><a href="#" class="footer__link">Contate-nos</a></li>
-                <li><a href="about.html" class="footer__link">Sobre nós</a></li>
+                <li><a href="../html/about.html" class="footer__link">Sobre nós</a></li>
             </ul>
         </div>
     </div>
@@ -428,9 +420,9 @@
     </div>
     
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

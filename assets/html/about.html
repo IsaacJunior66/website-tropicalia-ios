@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/logohigh.jpg" type="image/x-icon">
     <!--=============== BOXICONS ===============-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../js/swiper-bundle.min.js">
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="../css/colors/color-1.css">
 
     <title>TROPICALIA</title>
 </head>
@@ -21,37 +21,34 @@
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="index.html" class="nav__logo">
-                <img src="./assets/img/logo.png" alt="logo">
+            <a href="/index.html" class="nav__logo">
+                <img src="../img/logo.png" alt="logo">
             </a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                  
+                    
+
                     <li class="nav__item">
-                        <a href="shop.html" class="nav__link">Compras</a>
+                        <a href="../html/shop.html" class="nav__link">Compras</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="blog.html" class="nav__link">Blog</a>
+                        <a href="../html/blog.html" class="nav__link">Blog</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="faq.html" class="nav__link">Perguntas</a>
+                        <a href="../html/faq.html" class="nav__link">Perguntas</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="about.html" class="nav__link">Sobre</a>
+                        <a href="../html/about.html" class="nav__link">Sobre</a>
                     </li>
 
                     <li class="nav__item">
-                        <a href="contact.html" class="nav__link">Contato</a>
+                        <a href="../html/contact.html" class="nav__link">Contato</a>
                     </li>
                 </ul>
-
-                <!-- <div class="nav__close" id="nav-close">
-                    <i class="bx bx-x"></i>
-                </div> -->
             </div>
 
             <div class="nav__btns">
@@ -60,7 +57,8 @@
                 </div>
 
                 <div class="nav__shop" id="cart-shop">
-                    <i class="bx bx-shopping-bag"></i>
+                    <i class='bx bx-shopping-bag' id="cart"></i>
+                    <span id="cart-count">0</span>
                 </div>
 
                 <div class="nav__toggle" id="nav-toggle">
@@ -71,6 +69,7 @@
     </header>
 
     <!--=============== CART ===============-->
+
     <div class="cart">
         <h2 class="cart-title">Meu carrinho</h2>
 
@@ -86,11 +85,13 @@
             <div class="total-price">$0</div>
         </div>
         <!-- BUY BUTTON  -->
-        <a href="/Credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <a href="../html/credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
         <!-- CART CLOSE  -->
         <i class='bx bx-x' id="cart-close"></i>
     </div>
 </div>
+
+    
 
     <!--=============== LOGIN ===============-->
     <div class="login" id="login">
@@ -112,77 +113,50 @@
             <div>
                 <a href="#" class="button">Entrar</a>
             </div>
-
-            <div>
-                <p class="signup">Não é um membro?<a href="registration.html">Inscreva-se agora</a></p>
-            </div>
         </form>
     </div>
 
+
     <!--=============== MAIN ===============-->
     <main class="main">
-        <!--=============== BLOG ===============-->
-        <section class="blog section container">
-            <h2 class="breadcrumb__title">Blog Page</h2>
-            <h3 class="breadcrumb__subtitle">Inicio> <span>Blog</span></h3>
+        <!--=============== ABOUT ===============-->
+        <section class="about section container">
+            <h2 class="breadcrumb__title">Sobre</h2>
+            <h3 class="breadcrumb__subtitle">Inicio > <span>Sobre nós</span></h3>
 
-            <div class="blog__container grid">
-                <div class="blog__post grid">
-                    <img src="./assets/img/Guia-de-compra.png" alt="" class="blog__img">
+            <div class="about__container grid">
+                <img src="../img/sobre.png" alt="" class="about__img">
 
-                    <div class="blog__info">
-                        <p class="blog__details">Escolher o produto X ideal pode ser uma tarefa desafiadora, especialmente com a ampla variedade de opções disponíveis no mercado. Seja você um comprador experiente ou alguém que está adquirindo esse tipo de produto pela primeira vez, este guia ajudará você a tomar uma decisão informada. Vamos explorar os principais fatores a serem considerados para garantir que você escolha o produto X perfeito para suas necessidades.</p>
-                        <h3 class="blog__title">Guias de Compras</h3>
-                        <p class="blog__date">By Admin / 2024 / </p>
-                        <div class="read__more">
-                            <a href="#" class="button--link button--flex">Veja mais <i class="bx bx-right-arrow-alt button__icon"></i></a>
-                        </div>
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                             Porque escolher nós
+                    </h2>
+
+                    <p class="about__description">
+                        
+                            Temos mais de 4.000 avaliações imparciais e nossos clientes sempre confiam em nossos produtos e serviço de entrega
+                    </p>
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="bx bxs-check-square about__details-icon"></i>
+                            Sempre entregamos no prazo.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="bx bxs-check-square about__details-icon"></i>
+                            Guias interativos protegem e orientam produtos
+                        </p>
+                        <p class="about__details-description">
+                            <i class="bx bxs-check-square about__details-icon"></i>
+                            100% do dinheiro de volta garantido.
+                        </p>
                     </div>
                 </div>
-
-                <div class="blog__post grid">
-                    <img src="./assets/img/ultimas-tendencias.png" alt="" class="blog__img">
-
-                    <div class="blog__info">
-                        <p class="blog__details">A consciência ambiental está crescendo e os consumidores estão cada vez mais interessados em moda sustentável. As roupas feitas de fibras de coco são uma excelente opção ecológica, pois utilizam materiais naturais e processos de produção que têm um impacto ambiental reduzido.</p>
-                        <h3 class="blog__title">Tendências e Novidades</h3>
-                        <p class="blog__date">By Admin / 2024 / </p>
-                        <div class="read__more">
-                            <a href="#" class="button--link button--flex">Veja mais<i class="bx bx-right-arrow-alt button__icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="blog__post grid">
-                    <img src="./assets/img/Missao.png" alt="" class="blog__img">
-
-                    <div class="blog__info">
-                        <p class="blog__details">Oferecer produtos inovadores e ecológicos, utilizando a robusta fibra de coco, garantindo alta qualidade e incorporando tecnologia avançada. Nosso compromisso é estar sempre alinhados às últimas tendências da moda, proporcionando um atendimento excepcional, mantendo a sustentabilidade e a responsabilidade ambiental no cerne de nossas operações.</p>
-                        <h3 class="blog__title">Missão</h3>
-                        <p class="blog__date">By Admin / 2024 / </p>
-                        <div class="read__more">
-                            <a href="#" class="button--link button--flex">Veja mais <i class="bx bx-right-arrow-alt button__icon"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pagination">
-                <i class="bx bx-chevron-left pagination__icon"></i>
-
-                <span class="current">1</span>
-                <span>2</span>
-                <span>3</span>
-                <span>&middot; &middot; &middot;</span>
-                <span>9</span>
-
-                <i class="bx bx-chevron-right pagination__icon"></i>
             </div>
         </section>
     </main>
 
-  <!--=============== FOOTER ===============-->
-  <footer class="footer section">
+   <!--=============== FOOTER ===============-->
+   <footer class="footer section">
     <div class="footer__container container grid">
         <!-- FOOTER CONTENT 1 -->
         <div class="footer__content">
@@ -226,13 +200,14 @@
             <ul class="footer__links">
                 <li><a href="#" class="footer__link">Cadastre-se</a></li>
                 <li><a href="#" class="footer__link">Contate-nos</a></li>
-                <li><a href="about.html" class="footer__link">Sobre nós</a></li>
+                <li><a href="../html/about.html" class="footer__link">Sobre nós</a></li>
             </ul>
         </div>
     </div>
 
     <span class="footer__copy">&#169; Tropicalia. todos direitos reservados</span>
 </footer>
+
 
     <!--=============== SCROLL UP ===============-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -245,7 +220,7 @@
             <i class="bx bxs-cog bx-spin"></i>
         </div>
 
-        <h4>temas</h4>
+        <h4>Temas</h4>
 
         <div class="theme__colors js-theme-colors">
             <button type="button"  data-js-theme-color="color-1" class="js-theme-color-item theme__button color-1"><i class="bx bx-check"></i></button>
@@ -257,9 +232,9 @@
     </div>
     
     <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="../js/swiper-bundle.min.js"></script>
 
     <!--=============== JS ===============-->
-    <script src="assets/js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>

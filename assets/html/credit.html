@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/Credit.css">
+    <link rel="stylesheet" href="../css/Credit.css">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
             <div class="outer">
                 <header>
                     <div class="logo">
-                        <a href="index.html"><img src="./assets/img/logo.png" alt=""></a>
+                        <a href="/index.html"><img src="../img/logo.png" alt=""></a>
                     </div>
                     <div class="time-left">
                         <time id="time">03:00</time>
@@ -24,7 +24,7 @@
                 </header>
                 <section class="payment">
                     <div class="left">
-                        <form action="" method="post">
+                        <form class="form" action="" method="post">
                             <div class="card-number">
                                 <p>Numero do cartão</p>
                                 <span>Digite o número do cartão de 16 dígitos no cartão</span>
@@ -63,7 +63,10 @@
                                     <input type="number" id="exp-year" placeholder="YY" data-maxlength="2" required oninput="this.value=this.value.slice(0,this.dataset.maxlength)" />
                                 </div>
                             </div>
-                            <a href="/index.html"><button class="Finish-buy">Finalizar Compra</button></a>
+                            
+                            <a href="#">
+                                <button class="Finish-buy">Finalizar Compra</button>
+                            </a>
                         </form>
                     </div>
                     <div class="right">
@@ -71,7 +74,7 @@
                             <p class="cc-logo"></p>
                             <p class="name-holder">Tropicalia Store</p>
                             <p class="chip">
-                                <img id="img-chip" src="./assets/img/chip.png" alt="Chip-do-cartao">
+                                <img id="img-chip" src="../img/chip.png" alt="Chip-do-cartao">
                             </p>
                             <p class="highlight">
                                 <span class="last-digit" id="card-number">.... .... .... 4567</span>
@@ -89,7 +92,7 @@
                                 </li>
                                 <li>
                                     <span>Produto</span>
-                                    <span>Camisa fiber coco</span>
+                                    <span></span>
                                 </li>
                                 <li>
                                     <span>Desconto (50%)</span>
@@ -97,7 +100,7 @@
                                 </li>
                             </ul>
                             <div class="total-buy">
-                                <p class="total-price-buy"><strong>0</strong>R$</p>
+                                <p class="total-price-buy"><strong>R$</strong>120,00</p>
                                 <p>Total que você tem que pagar</p>
                             </div>
                         </div>
@@ -113,8 +116,8 @@
 
 
 
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/Credit.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/Credit.js"></script>
 </body>
 
 </html>

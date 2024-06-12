@@ -160,8 +160,19 @@ window.onload = function () {
     startTimer(Minutes, display)
 };
 
-const finishBuyButton = document.querySelector('.Finish-buy');
 
-finishBuyButton.addEventListener('click', () => {
-    alert('Seu pedido foi feito com sucesso');
+document.addEventListener('DOMContentLoaded', () => {
+    const form = document.querySelector('.form'); // Substitua '.my-form' pelo seletor correto do seu formulário
+
+    form.addEventListener('submit', (event) => {
+        // Verifique se o formulário é válido (todos os campos obrigatórios estão preenchidos)
+        if (form.checkValidity()) {
+            event.preventDefault(); // Impede o envio do formulário
+            alert('Seu pedido foi feito com sucesso');
+            // Não redireciona para outra página
+        } else {
+            event.preventDefault();
+            alert('Preencha corretamente o formulário antes de finalizar a compra');
+        }
+    });
 });
