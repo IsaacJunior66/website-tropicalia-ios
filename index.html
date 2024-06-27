@@ -19,8 +19,10 @@
     <title>TROPICALIA</title>
 </head>
 <!-- Start of projetofinalt1 Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d5e51e6e-7abe-429e-935d-e0135b3ec06e"> </script>
+<script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=d5e51e6e-7abe-429e-935d-e0135b3ec06e"> </script>
 <!-- End of projetofinalt1 Zendesk Widget script -->
+
 <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
@@ -31,7 +33,7 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    
+
 
                     <li class="nav__item">
                         <a href="./assets/html/shop.html" class="nav__link">Compras</a>
@@ -69,9 +71,18 @@
                     <span id="cart-count">0</span>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
+                <div class="nav__toggle-one" id="nav-toggle-one">
                     <i class="bx bx-grid-alt"></i>
                 </div>
+
+                <button class="nav__toggle-one" onclick="toggleMenu()">Clique aqui</button>
+                <script>
+                    function toggleMenu() {
+                        const navMenu = document.querySelector('.nav__menu');
+                        navMenu.classList.toggle('show-menu');
+                    }
+                </script>
+
             </div>
         </nav>
     </header>
@@ -83,7 +94,7 @@
 
         <!-- CONTENT  -->
         <div class="cart-content">
-            
+
 
         </div>
 
@@ -93,15 +104,15 @@
             <div class="total-price">$0</div>
         </div>
         <!-- BUY BUTTON  -->
-         <a href="./assets/html/credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
+        <a href="./assets/html/credit.html"><button type="button" class="btn-buy">Finalizar comprar</button></a>
         <!-- CART CLOSE  -->
         <i class='bx bx-x' id="cart-close"></i>
     </div>
-</div>
+    </div>
 
 
 
-    
+
     <!--=============== LOGIN ===============-->
     <div class="login" id="login">
         <i class="bx bx-x login__close" id="login-close"></i>
@@ -123,7 +134,7 @@
                 <a href="#" class="button">Entrar</a>
             </div>
 
-        
+
         </form>
     </div>
 
@@ -148,14 +159,15 @@
                             </div>
 
                             <div class="home-data">
-                                <h3 class="home-subtitle">#1  DESTAQUE</h3>
+                                <h3 class="home-subtitle">#1 DESTAQUE</h3>
                                 <h1 class="home-title">Naturalmente sustentável<br>elegante !</h1>
-                                <p class="home-description">Camisetas confeccionadas com tecido desenvolvido com a fibra de coco</p>
+                                <p class="home-description">Camisetas confeccionadas com tecido desenvolvido com a fibra
+                                    de coco</p>
 
                                 <div class="home-buttons">
                                     <a href="./assets/html/details.html" class="button">Comprar</a>
-                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver detalhes<i
-                                            class='bx bx-right-arrow-alt button-icon'></i> </a>
+                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver
+                                        detalhes<i class='bx bx-right-arrow-alt button-icon'></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -176,12 +188,13 @@
                             <div class="home-data">
                                 <h3 class="home-subtitle">#2 Combinação ideal</h3>
                                 <h1 class="home-title">Coleção <br> verão <br> 2024</h1>
-                                <p class="home-description">Coleção de verão: arejada, tropical, chique, inovadora, versátil, estilosa.</p>
+                                <p class="home-description">Coleção de verão: arejada, tropical, chique, inovadora,
+                                    versátil, estilosa.</p>
 
                                 <div class="home-buttons">
                                     <a href="./assets/html/details.html" class="button">Comprar</a>
-                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver detalhes<i
-                                            class='bx bx-right-arrow-alt button-icon'></i> </a>
+                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver
+                                        detalhes<i class='bx bx-right-arrow-alt button-icon'></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -207,8 +220,8 @@
 
                                 <div class="home-buttons">
                                     <a href="./assets/html/details.html" class="button">Comprar</a>
-                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver detalhes<i
-                                            class='bx bx-right-arrow-alt button-icon'></i> </a>
+                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver
+                                        detalhes<i class='bx bx-right-arrow-alt button-icon'></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -230,12 +243,13 @@
                             <div class="home-data">
                                 <h3 class="home-subtitle">#4 TENDÊNCIA</h3>
                                 <h1 class="home-title">Feito 100%<br> com fibra <br> de coco !</h1>
-                                <p class="home-description">A fibra de coco é um biomaterial sustentável usado em roupas duráveis.</p>
+                                <p class="home-description">A fibra de coco é um biomaterial sustentável usado em roupas
+                                    duráveis.</p>
 
                                 <div class="home-buttons">
                                     <a href="./assets/html/details.html" class="button">Comprar</a>
-                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver detalhes<i
-                                            class='bx bx-right-arrow-alt button-icon'></i> </a>
+                                    <a href="./assets/html/details.html" class="button--link button--flex">Ver
+                                        detalhes<i class='bx bx-right-arrow-alt button-icon'></i> </a>
                                 </div>
                             </div>
                         </div>
@@ -249,7 +263,7 @@
             </div>
 
         </section>
-       
+
         <!--=============== DISCOUNT ===============-->
         <section class="discount section">
             <div class="discount__container container grid">
@@ -279,11 +293,11 @@
                                 <span class="new__price">R$74.99</span>
                                 <span class="new__discount">R$150.99</span>
                             </div>
-  
+
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div>
-                           
+
                         </div>
                         <!--NEW CONTENT 2-->
                         <div class="new__content swiper-slide">
@@ -300,7 +314,7 @@
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div>
-                            
+
                         </div>
                         <!--NEW CONTENT 3-->
                         <div class="new__content swiper-slide">
@@ -314,11 +328,11 @@
                                 <span class="new__discount">R$140.99</span>
                             </div>
 
-                           
+
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div>
-                            
+
                         </div>
                         <!--NEW CONTENT 4-->
                         <div class="new__content swiper-slide">
@@ -331,11 +345,11 @@
                                 <span class="new__price">R$64.99</span>
                                 <span class="new__discount">R$130.99</span>
                             </div>
-  
+
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div><i class="bx bx-cart-alt add-cart"></i>
-                           
+
                         </div>
                         <!--NEW CONTENT 5-->
                         <div class="new__content swiper-slide">
@@ -352,7 +366,7 @@
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div>
-                           
+
                         </div>
                         <!--NEW CONTENT 6-->
                         <div class="new__content swiper-slide">
@@ -365,11 +379,11 @@
                                 <span class="new__price">R$99.90</span>
                                 <span class="new__discount">R$199.90</span>
                             </div>
-                            
+
                             <div class="button new__button">
                                 <i class="bx bx-cart-alt add-cart"></i>
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
@@ -403,7 +417,7 @@
                         <div class="steps__card-number">03</div>
                         <h3 class="steps__card-title">Receba o pedido entregue</h3>
                         <p class="steps__card-description">
-                        Nosso processo de entrega é fácil, você recebe o pedido direto em sua casa
+                            Nosso processo de entrega é fácil, você recebe o pedido direto em sua casa
                         </p>
                     </div>
                 </div>
@@ -415,7 +429,7 @@
             <div class="newsletter__container container">
                 <h2 class="section__title">Novas informações</h2>
                 <p class="newsletter__description">
-                    Promoção de novos produtos e vendas. 
+                    Promoção de novos produtos e vendas.
                 </p>
 
                 <form action="" class="newsletter__form">
@@ -426,7 +440,7 @@
         </section>
     </main>
 
-     <!--=============== FOOTER ===============-->
+    <!--=============== FOOTER ===============-->
     <footer class="footer section">
         <div class="footer__container container grid">
             <!-- FOOTER CONTENT 1 -->
@@ -480,22 +494,22 @@
 
         <div id="div_fixa" class="flutuar" data-shrink="yes">
 
-<!--             <a href="" target="_blank">
+            <!--             <a href="" target="_blank">
 
                 <div class="flex_itens">
                     <a href="https://wa.me/5534997128798?text=Ol%C3%A1%2C+Tudo+bem%3F" target="_blank"><img
                             src="./assets/img/whatsapp.png" alt="Ícone do WhatsApp"></a>
                     <!-- <span>Converse comigo</span> -->
-                </div>
- -->
+        </div>
+        -->
 
-            </a>
+        </a>
         </div>
     </footer>
 
 
     <!--=============== SCROLL UP ===============-->
-<!--     <a href="#" class="scrollup" id="scroll-up">
+    <!--     <a href="#" class="scrollup" id="scroll-up">
         <i class="bx bx-up-arrow-alt scrollup__icon"></i>
     </a> -->
 

@@ -334,7 +334,7 @@ function themeColors() {
 themeColors();
 
 // Selecione os elementos do DOM
-const navToggle = document.querySelector('#nav-toggle');
+const navToggle = document.querySelector('.nav__toggle-one');
 const navMenu = document.querySelector('.nav__menu');
 
 // Adicione um ouvinte de evento de clique ao botão

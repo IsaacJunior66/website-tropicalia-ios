@@ -174,7 +174,7 @@ input {
 .nav__close,
 .login__toggle,
 .nav__logo,
-.nav__toggle,
+.nav__toggle-one,
 .nav__shop {
     color: var(--title-color);
 }
@@ -227,7 +227,7 @@ input {
     left:20px
 }
 
-.nav__toggle,
+.nav__toggle-one,
 .login__toggle,
 .nav__shop {
     position: relative;
@@ -268,11 +268,11 @@ input {
 }
 
 .nav__close,
-.nav__toggle {
+.nav__toggle-one {
     display: none;
 }
 
-.nav__toggle {
+.nav__toggle-one {
     color: var(--first-color);
 }
 
@@ -1846,7 +1846,7 @@ input {
         row-gap: 2rem;
     }
 
-    .nav__toggle,
+    .nav__toggle-one,
     .nav__close {
         display: block;
     }
