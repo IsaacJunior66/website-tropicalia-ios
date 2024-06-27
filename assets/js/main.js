@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Atualizar função para adicionar itens dinamicamente
   function update() {
     updateTotal();
-  }
+ }
 });
 
 
@@ -333,12 +333,33 @@ function themeColors() {
 
 themeColors();
 
+// Selecione os elementos do DOM
 const navToggle = document.querySelector('#nav-toggle');
 const navMenu = document.querySelector('.nav__menu');
 
-navToggle.addEventListener('click', () => {
+// Adicione um ouvinte de evento de clique ao botão
+navToggle.addEventListener("click", () => {
     navMenu.classList.toggle('show-menu');
 });
+/*=============== SHOW LOGIN ===============*/
+
+
+// /*===== LOGIN SHOW =====*/
+// /* Validate if constant exists */
+// if(loginButton) {
+//   loginButton.addEventListener("click", () => {
+//     login.classList.add('show-login')
+//   })
+// }
+
+// /*===== LOGIN HIDDEN =====*/
+// /* Validate if constant exists */
+// if(loginClose) {
+//   loginClose.addEventListener("click", () => {
+//     login.classList.remove('show-login')
+//   })
+// }
+
 
 
 
