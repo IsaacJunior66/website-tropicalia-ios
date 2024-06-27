@@ -64,9 +64,17 @@
                     <span id="cart-count">0</span>
                 </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="bx bx-grid-alt"></i>
+                <div class="nav__toggle-one" id="nav-toggle-one">
+                    <!-- <i class="bx bx-grid-alt"></i> -->
                 </div>
+
+                <button class="nav__toggle-one" id="toggle-responsive" onclick="toggleMenu()"><i class="bx bx-grid-alt"></i></button>
+                <script>
+                    function toggleMenu() {
+                        const navMenu = document.querySelector('.nav__menu');
+                        navMenu.classList.toggle('show-menu');
+                    }
+                </script>
             </div>
         </nav>
     </header>

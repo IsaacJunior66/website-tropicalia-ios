@@ -275,6 +275,11 @@ input {
 .nav__toggle-one {
     color: var(--first-color);
 }
+#toggle-responsive {
+    background: transparent;
+    position: relative;
+    right: 10px;
+}
 
 .show-menu {
     display: block;
