@@ -333,7 +333,7 @@ function themeColors() {
 
 themeColors();
 
-const navToggle = document.querySelector('.nav__toggle');
+const navToggle = document.querySelector('#nav-toggle');
 const navMenu = document.querySelector('.nav__menu');
 
 navToggle.addEventListener('click', () => {
