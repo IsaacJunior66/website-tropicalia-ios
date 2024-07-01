@@ -298,6 +298,7 @@ input {
     padding: 10rem 0 2rem;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 3rem;
+    
 
 }
 
@@ -305,6 +306,7 @@ input {
     display: grid;
     position: relative;
     padding-top: .3rem;
+    
 }
 
 .home-img {
